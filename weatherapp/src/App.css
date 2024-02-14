@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.weather-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 100px;
+  text-align: left;
+}
+
+.weather-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  margin: 5px 0;
+}
+.button-search{
+  background-color: rgb(111, 230, 111);
+  padding: 5px;
+  border-radius: 4px;
+
+}
+.input{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+}
