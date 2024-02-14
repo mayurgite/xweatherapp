@@ -37,18 +37,18 @@ function App() {
       <button className="button-search" onClick={handleSubmit}>Search</button>
       {loading && <p>Loading data...</p>}
       {weatherData && (
-        <div className="weather-cards-container">
-       
         <div className="weather-cards">
+       
+        <div className="weather-card">
           <p>Temperature: {weatherData.current.temp_c}°C</p>
         </div>
-        <div className="weather-cards">
+        <div className="weather-card">
           <p>Humidity: {weatherData.current.humidity}%</p>
         </div>
-        <div className="weather-cards">
+        <div className="weather-card">
           <p>Condition: {weatherData.current.condition.text}</p>
         </div>
-        <div className="weather-cards">
+        <div className="weather-card">
           <p>Wind Speed: {weatherData.current.wind_kph} km/h</p>
         </div>
       </div>

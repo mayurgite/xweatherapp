@@ -4,13 +4,13 @@
   
 }
 
-.weather-cards-container {
+.weather-cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.weather-cards {
+.weather-card{
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
@@ -19,12 +19,12 @@
   text-align: left;
 }
 
-.weather-cards h2 {
+.weather-card h2 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.weather-cards p {
+.weather-card p {
   margin: 5px 0;
 }
 .button-search{
